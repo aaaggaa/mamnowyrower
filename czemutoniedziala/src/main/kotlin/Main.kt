@@ -4,18 +4,17 @@ fun main(args: Array<String>) {
 
 fun printFizzBuzz(start: Int, end: Int) {
     for (i in start..end) {
-        if (i % 15 == 0)
+        if (i % 15 == 0) {
             println("$i FizzBuzz")
-         else
-            if (i % 5 == 0)
-                println("$i Buzz")
-            else
-                if (i % 3 == 0)
-                    println("$i Fizz")
-                            else
-        println("$i")
-    }
+        } else if (i % 5 == 0)
+            println("$i Buzz")
+        else if (i % 3 == 0) {
+            println("$i Fizz")
+        } else {
+            println("$i")
         }
+    }
+}
 
 
 
