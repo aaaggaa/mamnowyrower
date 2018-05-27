@@ -3,11 +3,11 @@ fun main(args: Array<String>) {
     val reversed = revertString(source)
 
 
-    for (i in reversed.count() -1 downTo 0 ){
-
+    for (i in 0 until reversed.count()) {
+        println(reversed.get(i))
 
     }
-    println(reversed)
+    
 }
 
 fun revertString(agnieszka: String): String {
