@@ -2,31 +2,32 @@ fun main(args: Array<String>) {
     val source = "abcdefghijklmnoprstuwvxyz"
     val reversed = revertString(source)
 
-    println(reversed)
-    for (i in source.count() -1 downTo 0 ){
 
-        println (source.get(i))
+    for (i in reversed.count() -1 downTo 0 ){
+
+        println(reversed.get(i))
 
     }
-    val tojestint: Long = 555555555555555
-    var tojeststring: String = "a"
-    var tojestlong = 8L
-    var cokolwiek: Byte = 122
-    val ujemna = -14
-    val kkk: Double = 1.111
-    val sss: Char = 'a'
 
-    val ddd: Array<Double> = arrayOf(2.0, 5.6)
-    val dlugosc = ddd.size
-    val list: List<String> = listOf("java", "kotlin", "C#", "Lisp", tojeststring)
-    val size: Int = list.size
-    val zbior: Set<String> = setOf("a","b","c","d")
-//    println(ddd.get(1))
-//    println(list.get(2))
-//    println(zbior.get(2))
-    val kot: String = "Agnieszka"
-    val kot2 : String = "makota"
-    val liczbaznakow: Int = kot.length
+//    val tojestint: Long = 555555555555555
+//    var tojeststring: String = "a"
+//    var tojestlong = 8L
+//    var cokolwiek: Byte = 122
+//    val ujemna = -14
+//    val kkk: Double = 1.111
+//    val sss: Char = 'a'
+//
+//    val ddd: Array<Double> = arrayOf(2.0, 5.6)
+//    val dlugosc = ddd.size
+//    val list: List<String> = listOf("java", "kotlin", "C#", "Lisp", tojeststring)
+//    val size: Int = list.size
+//    val zbior: Set<String> = setOf("a","b","c","d")
+////    println(ddd.get(1))
+////    println(list.get(2))
+////    println(zbior.get(2))
+//    val kot: String = "Agnieszka"
+//    val kot2 : String = "makota"
+//    val liczbaznakow: Int = kot.length
 //    for (i in kot.count() -1 downTo 0 ){
 
 //        println (kot.get(i))
@@ -46,6 +47,7 @@ fun main(args: Array<String>) {
 
 fun revertString(agnieszka: String): String {
     return agnieszka
+
 }
 
 //fun stringtoin (lunge: Array<String>):
