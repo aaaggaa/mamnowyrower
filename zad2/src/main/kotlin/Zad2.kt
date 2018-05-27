@@ -1,20 +1,20 @@
 fun main(args: Array<String>) {
     val source = "abcdefghijklmnoprstuwvxyz"
-    val reversed = revertString(source)
+    val reverted = revertString(source)
 
+    println(reverted)
 
-    for (i in 0 until reversed.count()) {
-        println(reversed.get(i))
+}
 
+@Suppress("UNREACHABLE_CODE")
+fun revertString(source: String): String {
+    return source.reversed()
+
+    for (i in source.count() - 1 downTo 0) {
+        println(i)
     }
-    
 }
 
-fun revertString(agnieszka: String): String {
-    return agnieszka.reversed()
-
-
-}
 
 //fun stringtoin (lunge: Array<String>):
 
