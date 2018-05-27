@@ -5,9 +5,18 @@ fun main(args: Array<String>) {
 
     for (i in reversed.count() -1 downTo 0 ){
 
-        println(reversed.get(i))
 
     }
+    println(reversed)
+}
+
+fun revertString(agnieszka: String): String {
+    return agnieszka.reversed()
+
+
+}
+
+//fun stringtoin (lunge: Array<String>):
 
 //    val tojestint: Long = 555555555555555
 //    var tojeststring: String = "a"
@@ -42,12 +51,3 @@ fun main(args: Array<String>) {
 //    println(kot.get(3))
 //    println(kot.get(1))
 //    println(kot.get(2))
-
-}
-
-fun revertString(agnieszka: String): String {
-    return agnieszka
-
-}
-
-//fun stringtoin (lunge: Array<String>):
