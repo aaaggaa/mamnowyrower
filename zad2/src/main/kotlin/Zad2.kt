@@ -6,13 +6,14 @@ fun main(args: Array<String>) {
 
 }
 
-@Suppress("UNREACHABLE_CODE")
+
 fun revertString(source: String): String {
-    return source.reversed()
 
     for (i in source.count() - 1 downTo 0) {
-        println(i)
+
     }
+
+    return source.reversed()
 }
 
 
@@ -25,7 +26,6 @@ fun revertString(source: String): String {
 //    val ujemna = -14
 //    val kkk: Double = 1.111
 //    val sss: Char = 'a'
-//
 //    val ddd: Array<Double> = arrayOf(2.0, 5.6)
 //    val dlugosc = ddd.size
 //    val list: List<String> = listOf("java", "kotlin", "C#", "Lisp", tojeststring)
