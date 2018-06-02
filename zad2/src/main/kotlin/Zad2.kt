@@ -8,12 +8,12 @@ fun main(args: Array<String>) {
 
 
 fun revertString(source: String): String {
-
-    for (i in source.count() - 1 downTo 0) {
+    for (i in  source.count ()-1 downTo 0) {
+println(source[i])
 
     }
 
-    return source.reversed()
+    return source
 }
 
 
