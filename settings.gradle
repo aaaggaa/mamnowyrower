@@ -1,4 +1,5 @@
 rootProject.name = 'helloworld'
 include 'czemutoniedziala'
 include 'zad2'
+include 'common'
 
